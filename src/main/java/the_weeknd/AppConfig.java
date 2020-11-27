@@ -21,7 +21,7 @@ public class AppConfig {
 
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setUsername("root");
-        dataSource.setPassword("X()0d1998");
+        dataSource.setPassword("password");
         dataSource.setUrl("jdbc:mysql://localhost:3306/the_weeknd_lyrics");
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
 
