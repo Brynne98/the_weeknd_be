@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/jdbc
+       http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd"
+>
+
+    <!--    <jpa:repositories base-package="the_weeknd.dao" />-->
+
+<!--        <bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource">-->
+<!--            <property name="driverClassName" value="${jdbc.driver}" />-->
+<!--            <property name="url" value="${jdbc.url}" />-->
+<!--            <property name="username" value="${jdbc.username}" />-->
+<!--            <property name="password" value="${jdbc.password}" />-->
+<!--            <property name="testOnBorrow" value="${jdbc.test.on.borrow}" />-->
+<!--            <property name="validationQuery" value="${jdbc.validation.query}" />-->
+<!--            <property name="validationInterval" value="${jdbc.validation.interval}" />-->
+<!--        </bean>-->
+
+    <!--    <bean id="transactionManager" class="org.hibernate.">-->
+    <!--        <constructor-arg name="dataSource" ref="dataSource"/>-->
+    <!--    </bean>-->
+
+<!--        <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">-->
+<!--            <constructor-arg ref="dataSource" />-->
+<!--        </bean>-->
+
+<!--    <bean id="myEmf" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">-->
+<!--        <property name="dataSource" ref="dataSource"/>-->
+<!--        <property name="packagesToScan" value="the_weeknd.domain"/>-->
+<!--        <property name="jpaVendorAdapter">-->
+<!--            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>-->
+<!--        </property>-->
+<!--        <property name="jpaProperties">-->
+<!--            <props>-->
+<!--                <prop key="hibernate.hbm2ddl.auto">create-drop</prop>-->
+<!--                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>-->
+<!--            </props>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+<!--    <bean id="dataSource"-->
+<!--          class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
+<!--        <property name="driverClassName" value="${jdbc.driver}"/>-->
+<!--        <property name="url" value="${jdbc.url}"/>-->
+<!--        <property name="username" value="${jdbc.username}"/>-->
+<!--        <property name="password" value="${jdbc.password}"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">-->
+<!--        <property name="entityManagerFactory" ref="myEmf"/>-->
+<!--    </bean>-->
+<!--    <tx:annotation-driven/>-->
+
+<!--    <bean id="persistenceExceptionTranslationPostProcessor"-->
+<!--          class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>-->
+
+<!--    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">-->
+<!--        <property name="persistenceXmlLocation" value="classpath:./META-INF/persistence.xml" />-->
+<!--        <property name="dataSource" ref="dataSource" />-->
+
+<!--        <property name="jpaProperties">-->
+<!--            <props>-->
+<!--                <prop key="hibernate.max_fetch_depth">3</prop>-->
+<!--                <prop key="hibernate.jdbc.fetch_size">50</prop>-->
+<!--                <prop key="hibernate.jdbc.batch_size">10</prop>-->
+<!--            </props>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+
+<!--    <bean name="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">-->
+<!--        <property name="entityManagerFactory" ref="entityManagerFactory"/>-->
+<!--    </bean>-->
+
+</beans>
+

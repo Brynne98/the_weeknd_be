@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/data/jpa https://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
+
+<!--    <context:property-placeholder location="the_weeknd.properties"></context:property-placeholder>-->
+
+<!--    &lt;!&ndash; bean definitions here &ndash;&gt;-->
+
+<!--    <bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource">-->
+<!--        <property name="driverClassName" value="${jdbc.driver}" />-->
+<!--        <property name="url" value="${jdbc.url}" />-->
+<!--        <property name="username" value="${jdbc.username}" />-->
+<!--        <property name="password" value="${jdbc.password}" />-->
+<!--        &lt;!&ndash;        <property name="testOnBorrow" value="${jdbc.test.on.borrow}" />&ndash;&gt;-->
+<!--        &lt;!&ndash;        <property name="validationQuery" value="${jdbc.validation.query}" />&ndash;&gt;-->
+<!--        &lt;!&ndash;        <property name="validationInterval" value="${jdbc.validation.interval}" />&ndash;&gt;-->
+<!--    </bean>-->
+
+<!--    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">-->
+<!--        <constructor-arg ref="dataSource" />-->
+<!--    </bean>-->
+
+</beans>
